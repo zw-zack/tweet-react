@@ -7,7 +7,7 @@ We will be building a twitter timeline using react components.
 Here is what the original timeline looks like:
 ![](twitter.png)
 
-Let's look at the object in our file:
+Let's look at the object for a single tweet in our file:
 ```
 {
     "created_at":"Tue May 01 05:49:13 +0000 2018",
@@ -121,7 +121,7 @@ Let's look at the object in our file:
 ```
 
 We will be making nested components out of the objects that are nested in this tweet object.
-Specifically `user` and 'entities'. Check the twitter docs here to see more about [entities:](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/entities-object)
+Specifically `user` and `entities`. Check the twitter docs here to see more about [entities:](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/entities-object)
 
 Your finished work doesn't need to look like the screenshot.
 
@@ -146,4 +146,3 @@ Hint: You can do it completely in CSS.
   display:block;
 }
 ```
-
