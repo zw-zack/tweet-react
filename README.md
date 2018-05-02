@@ -132,7 +132,7 @@ With `babel-standalone` library we can't include files direct from our filesyste
 
 Install the server `npm install`
 Start the server in the root repo directory with: `http-server`.
-Go to your main file in the browser: `http://localhost:8080`
+Go to your main file in the browser: `http://localhost:8080/index.html`
 You should see the message on the screen and there should be no js errors.
 
 ### Further
